@@ -21,7 +21,7 @@ python GitSnapper.py
 Or, if you prefer a standalone executable, it has been compiled via Nuitka. You can also compile it yourself:
 
 ```bash
-nuitka --standalone --onefile GitSnapper.py
+nuitka --standalone --windows-icon-from-ico=icon.png GitSnapper.py
 ```
 
 After compilation, you can run the `.exe` without installing Python or any dependencies.
